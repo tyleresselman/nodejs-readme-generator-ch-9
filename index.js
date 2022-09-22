@@ -47,7 +47,7 @@ const questions = [{
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-            err ? console.error(err) : console.log('Success! Now just open the file called "yourNewReadme.md and you are all set.')
+            err ? console.error(err) : console.log('Success! Now just open the file called yourNewReadme.md and you are all set.')
     ) 
 }
 

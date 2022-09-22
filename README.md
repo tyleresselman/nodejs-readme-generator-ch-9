@@ -6,6 +6,10 @@ This challenge was focused on us using node.js to create a command line applicat
 
 ## LINK TO VIDEO DEMO
 
+![Gif of walkkthrough](./utils/tyler%20esselman%20-%20challenge%209%20walkthrough.gif)
+
+[Google Drive link to video](https://drive.google.com/file/d/1-QHC8q3h1qb8su1R9CbVBzZr4kuosVb7/view)
+
 ## Credits
 
 I took some inspiration for logic and psuedocode from TA Paul Cwik.
