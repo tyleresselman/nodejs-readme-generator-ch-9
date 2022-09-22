@@ -1,10 +1,10 @@
 
-  ![License Badge](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+  ![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-  # The Big Project
+  # Test
 
   ## Description: 
-  It's an app you can use to make README files
+  test
 
   ## Table of Contents:
   - [Description](#description)
@@ -16,23 +16,23 @@
   - [License](#license)
 
   ## Installation
-  Grab my code, man.
+  test
 
   ## Usage
-  Hit go
+  test
 
   ## Contributions
-  My dad, mom, and God.
+  test
 
   ## Testing
-  Just go ahead and pop the hood.
+  test
 
   ## Questions
-  Feel free to check out my GitHub page at:
-  [GitHub](https://github.com/tyleresselman)
+  Feel free to check out my GitHub page at: 
+   https://github.com/tyleresselman
 
-  And you can contact me directly via email at:
-  [Email](mailto:tme91302@gmail.com)
+  And you can contact me directly via email at the following address: 
+   [tme91302@gmail.com](mailto:tme91302@gmail.com)
 
   ## License
-  I used Apache 2.0 as the license for this project. Please follow this link if you want to learn more: https://www.apache.org/licenses/LICENSE-2.0
+  I used The MIT License as the license for this project. Please follow this link if you want to learn more: https://opensource.org/licenses/MIT

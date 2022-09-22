@@ -9,7 +9,7 @@ function renderLicenseBadge(license) {
     return "https://img.shields.io/badge/License-GPLv3-blue.svg"
   } else if (license === 'BSD License') {
     return "https://img.shields.io/badge/License-BSD_3--Clause-blue.svg"
-  } else {
+  } else if (license === 'N/A') {
     return ""
   }
 };
@@ -72,11 +72,11 @@ function generateMarkdown(data) {
   ${data.testing}
 
   ## Questions
-  Feel free to check out my GitHub page at:
-  [GitHub](https://github.com/${data.github})
+  Feel free to check out my GitHub page at: 
+   https://github.com/${data.github}
 
-  And you can contact me directly via email at:
-  [Email](mailto:${data.email})
+  And you can contact me directly via email at the following address: 
+   [${data.email}](mailto:${data.email})
 
   ## License
   ${renderLicenseSection(data.license)}
