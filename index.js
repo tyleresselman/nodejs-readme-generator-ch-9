@@ -12,8 +12,7 @@ const questions = [{
     type: 'input',
     message: 'So what is the title of your project?',
     name: 'title'
-},
-{
+},{
     type: 'input',
     message: 'Please describe your project. What its purpose is and how it is meant to work for the user.',
     name: 'description'
@@ -25,6 +24,12 @@ const questions = [{
     type: 'input',
     message: 'Once your app is installed, how do you use it?',
     name: 'usage'
+},{
+    type: 'input',
+    message: 'Did anyone else contribute to your project?',
+    name: 'contributions'
+},{
+    
 }];
 
 // TODO: Create a function to write README file
