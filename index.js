@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown')
 
 
 // TODO: Create an array of questions for user input
@@ -45,7 +46,7 @@ const questions = [{
     choices: ['The MIT License', 'Apache 2.0', 'GNU GPL v3.0', 'BSD License', 'N/A']
 },{
     type: 'input',
-    message: 'Could you provide the link to your GitHub user profile, in case users want to access that?',
+    message: 'Could you please provide your GitHub username?',
     name: 'github'
 },{
     type: 'input',
@@ -64,6 +65,9 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt(questions)
+        .then(function(data){
+            writeToFile("./utils/generatedReadme.md", generateMarkdown(data))
+        })
         
 }
 
